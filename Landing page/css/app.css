@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+}
+
+
+header,
+.section-one {
+    background-color: #1F2937;
+}
+
+header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    padding: 10px 20%;
+
+
+}
+
+header ul {
+    min-width: 400px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* SECTION ONE */
+
+.section-one {
+    padding: 40px 20%;
+    display: flex;
+
+}
+
+.section-one div {
+    width: 50%;
+
+}
+
+.section-one h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.section-one button {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.section-one-div {
+    width: 50%;
+    background-color: #e2e8ed8c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* SECTION TWO */
+
+.section-two {
+    color: #1F2937;
+    padding: 40px 20%;
+    min-height: 400px;
+
+}
+
+.section-two h2 {
+    color: #1F2937;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-two section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section-two-img div {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.section-two p {
+    font-size: 16px;
+}
+
+
+/* SECTION THREE */
+
+.section-three {
+    background-color: #E5E7EB;
+    font-size: 24px;
+    padding: 80px 20%;
+    color: #1f2937;
+}
+
+.section-three p:first-child {
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+}
+
+.section-three p:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* SECTION FOUR */
+
+.section-four {
+    padding: 80px 20%;
+}
+
+.section-four div {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section-four article {
+    width: 70%;
+}
+
+.section-four h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.section-four button {
+    color: whitesmoke;
+    background-color: #3882f6;
+    padding: 0px 25px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+
+}
